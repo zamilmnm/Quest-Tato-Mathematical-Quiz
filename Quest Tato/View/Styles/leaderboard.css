@@ -1,0 +1,44 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid #000000;
+}
+
+th {
+    background-color: #A2AEBB;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color:  rgb(255, 0, 81);
+}
+
+body {
+    background-image: url("../Images/Leaderboard.png");
+}
+
+.button {
+    margin: 15px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A2AEBB;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  .button:hover{
+    background-color: rgb(255, 0, 81);
+    cursor: pointer;
+  }
